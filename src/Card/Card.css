@@ -1,0 +1,106 @@
+.card {
+  display: flex;
+  background-color: #fff;
+  height: 300px;
+  width: 600px;
+  border-radius: 20px;
+}
+
+.inputs {
+  background-color: #fff;
+  width: 50%;
+  margin: 15px;
+  border-radius: 20px;
+}
+
+.outputs {
+  background-color: #00474b;
+  width: 50%;
+  margin: 15px;
+  border-radius: 20px;
+}
+
+.bill {
+  margin-left: 10px;
+  text-align: left;
+  color: black;
+  font-size: 16px;
+}
+
+.billInput {
+  height: 25px;
+  width: 235px;
+  text-align: right;
+  margin-bottom: 10px;
+}
+
+.tip {
+  margin-top: 15px;
+}
+
+.tipButton {
+  color: white;
+  background-color: #00474b;
+  font-size: 18px;
+  width: 75px;
+  margin-right: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.tipButton:active {
+  background-color: #26c2ad;
+}
+
+.tipButton:focus {
+  background-color: #26c2ad;
+}
+
+.buttonGroup {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.billOutput {
+  margin-left: 10px;
+  text-align: left;
+  color: white;
+  font-size: 16px;
+}
+
+.valueOne {
+  margin-left: 65px;
+  font-size: 20px;
+}
+
+.subNote {
+  font-size: 8px;
+  margin-bottom: 10px;
+}
+
+/* span {
+  font-size: 40px;
+} */
+
+.resetButton {
+  background-color: #26c2ad;
+  /* margin-top: 50px; */
+  width: 80%;
+  height: 30px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.tipOutputArea-left {
+  display: inline-flex;
+  width: 50%;
+}
+
+.tipOutputArea-right {
+  display: inline-flex;
+  width: 50%;
+}
+
+.totalBillarea {
+  font-size: 44px;
+}
